@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 
+ * Copyright (C) 2013
  * Center for Excellence in Nanomedicine (NanoCAN)
  * Molecular Oncology
  * University of Southern Denmark
@@ -8,7 +8,7 @@
  * Contact: 	mlist'at'health'.'sdu'.'dk
  * Web:		http://www.nanocan.org
  * ###########################################################################
- *	
+ *
  *	This file is part of OpenLabFramework.
  *
  *  OpenLabFramework is free software: you can redistribute it and/or modify
@@ -70,6 +70,8 @@ grails.project.dependency.resolution = {
         grailsCentral()
         mavenCentral()
         mavenRepo "http://repo.grails.org/grails/repo/"
+        mavenRepo "http://repo.grails.org/grails/core" //added following stackoverflow q28692748
+        mavenRepo "http://repo.grails.org/grails/plugins" //added following stackoverflow q28692748
     }
     dependencies {
         runtime "hsqldb:hsqldb:1.8.0.10"
