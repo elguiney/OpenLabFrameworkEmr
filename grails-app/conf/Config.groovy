@@ -50,7 +50,7 @@ def log4jFileName = System.properties.getProperty('catalina.base', '.') + "/logs
 
 
 /* Search for external config files */
-def ENV_NAME = "OPENLABFRAMEWORK_CONFIG"
+def ENV_NAME = "OPENLABFRAMEWORK_CONFIG_EMR"
 if (!grails.config.locations || !(grails.config.locations instanceof List)) {
     grails.config.locations = []
 }
